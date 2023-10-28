@@ -222,3 +222,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-10-27 21:40:41.811
+!MESSAGE C:\Users\Paulo\Desktop\Java-Geek_University\.git\.probe-f1db48ec-84a1-4589-8d8f-67c95c63ed80: O arquivo já está sendo usado por outro processo
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\Paulo\Desktop\Java-Geek_University\.git\.probe-f1db48ec-84a1-4589-8d8f-67c95c63ed80: O arquivo já está sendo usado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.write(FS.java:547)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.measureMinimalRacyInterval(FS.java:503)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$3(FS.java:442)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

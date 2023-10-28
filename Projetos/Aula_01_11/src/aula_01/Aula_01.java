@@ -13,8 +13,13 @@ public class Aula_01 {
 		float preco;
 		
 		// Declarando e inicializando variável
-		int num4 = 100;
+		int num4 = 5, num5 = 15;
+		int num6 = 100;
 		
+		// *****************
+		
+		float _valor = 34.4f;  // Por padrão, os valores de ponto flutuante são double no Java
+		double _valor1 = 34.5;
 
 	}
 }
