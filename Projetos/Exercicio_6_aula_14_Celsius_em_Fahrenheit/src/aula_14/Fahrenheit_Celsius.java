@@ -15,12 +15,12 @@ public class Fahrenheit_Celsius {
 		System.out.println("Faça um programa que leia a temperatura em Fahrenheit e transforme em Celsius.");
 		System.out.println();
 		
-		System.out.print("Digite o número: ");
+		System.out.print("Digite a temperatura em Fahrenheit: ");
 		float fahrenehit = sc.nextFloat();
 		
 		float celsius = 5 * (fahrenehit - 32) / 9;
 
-		System.out.println("A temperatura em Fahrenheit é " + celsius);
+		System.out.println("A temperatura em Fahrenheit é " + fahrenehit);
 		System.out.printf("A temperatura transformada em Celsius é, " + celsius);
 		
 		sc.close();

@@ -15,7 +15,7 @@ public class Celsius_Fahrenheit {
 		System.out.println("Faça um programa que leia a temperatura em Celsius e transforme em Fahrenheit.");
 		System.out.println();
 		
-		System.out.print("Digite o número: ");
+		System.out.print("Digite a temperatura em Celsius: ");
 		float celsius = sc.nextFloat();
 		
 		float fahrenehit = (celsius * 9/5) + 32;

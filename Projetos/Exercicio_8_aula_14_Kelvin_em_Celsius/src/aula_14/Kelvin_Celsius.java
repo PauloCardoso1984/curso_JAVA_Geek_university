@@ -15,7 +15,7 @@ public class Kelvin_Celsius {
 		System.out.println("Faça um programa que leia a temperatura em Kelvin e transforme em Celsius.");
 		System.out.println();
 		
-		System.out.print("Digite o número: ");
+		System.out.print("Digite a temperatura em Kelvin: ");
 		float kelvin = sc.nextFloat();
 		
 		double celsius = kelvin - 273.15;
