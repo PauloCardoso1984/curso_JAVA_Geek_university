@@ -14,7 +14,7 @@ public class Angulos_Radianos {
 		
 		double PI = 3.14;
 		
-		System.out.println("Faça um programa que leia um determinado Ãngulas e trasnforme em Radianos.");
+		System.out.println("Faça um programa que leia um determinado Ãngulos e trasnforme em Radianos.");
 		System.out.println();
 		
 		System.out.print("Digite o valor do ângulo: ");
