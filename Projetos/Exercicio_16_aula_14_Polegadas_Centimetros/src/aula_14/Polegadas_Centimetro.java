@@ -15,7 +15,7 @@ public class Polegadas_Centimetro {
 		System.out.println("Faça um programa que leia um determinado em Polegadas e transforme em Centímetro.");
 		System.out.println();
 		
-		System.out.print("Digite o valor do radiano: ");
+		System.out.print("Digite o valor do Polegadas: ");
 		double polegada = sc.nextDouble();
 		
 		double centimetro = polegada * 2.54;
