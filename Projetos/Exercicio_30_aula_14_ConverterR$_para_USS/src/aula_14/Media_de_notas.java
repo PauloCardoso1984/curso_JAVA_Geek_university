@@ -11,8 +11,8 @@ public class Media_de_notas {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 	
-		// VALOR DO DOLAR EM 03/01/2023 - R$ 4,89
-		double dolar = 4.89;
+		// VALOR DO DOLAR EM 03/01/2023 - R$ 4,877
+		double dolar = 4.877;
 		
 		System.out.println("Fazer um programa para converter um valor em real (R$) para dólar (USS)");
 		System.out.println();
