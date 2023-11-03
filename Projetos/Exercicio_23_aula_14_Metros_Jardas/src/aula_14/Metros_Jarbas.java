@@ -14,7 +14,7 @@ public class Metros_Jarbas {
 		System.out.println("Fazer um programa para ler um valor em Metros e transformar em Jardas");
 		System.out.println();
 		
-		System.out.print("Digite o valor em Jardas: ");
+		System.out.print("Digite o valor em Metros: ");
 		double metros = sc.nextDouble();
 		
 		double jardas = metros / 0.91;
