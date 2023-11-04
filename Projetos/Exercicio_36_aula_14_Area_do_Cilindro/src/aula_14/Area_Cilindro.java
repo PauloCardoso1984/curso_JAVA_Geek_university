@@ -26,8 +26,7 @@ public class Area_Cilindro {
 		double volumecilindro =  PI * Math.pow(raio, 2) * altura;
 		
 		System.out.println("Valor digitado da altura: " + altura + ", raio: " + raio);
-		// DESTA FORMA IMPRIMIRÁ 2 CASAS APÓS A VÍRGULA
-		System.out.printf("Capacidade do cilindro é de: %.2f%n ", volumecilindro, "m3");
+		System.out.println("Capacidade do cilindro é de: " + volumecilindro +" m3");
 		sc.close();
 	}
 }
