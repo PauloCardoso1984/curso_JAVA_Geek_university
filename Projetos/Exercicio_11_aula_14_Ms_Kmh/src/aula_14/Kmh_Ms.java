@@ -15,7 +15,7 @@ public class Kmh_Ms {
 		System.out.println("Faça um programa que leia uma velocidade em m/s para Km/h.");
 		System.out.println();
 		
-		System.out.print("Digite a velovidade en m/s: ");
+		System.out.print("Digite a velocidade en m/s: ");
 		float ms = sc.nextFloat();
 		
 		double kmh = ms *  3.6;
