@@ -24,7 +24,7 @@ public class CalculoTrabalho {
 		int diastrabalhados = sc.nextInt();
 		System.out.println();
 		
-		// CALCULANDO A PRÊMIAÇÃO
+		// CALCULANDO O PAGAMENTO
 		double totalpagar = diastrabalhados * 30.0;
 		double impostoderenda = totalpagar - (totalpagar * 0.08);
 	
