@@ -22,7 +22,6 @@ public class FuncoesString {
 		// ENCONTRAR A 1ª POSIÇÃO DE DETERMINADA String = indexOf()
 		// ENCONTRAR A ULTIMA OCORRENCIA DE UMA DETERMINADA STRING = lastIndexOf
 		
-
 		Scanner sc = new Scanner(System.in);
 		
 		String minuscula = "paulo reginaldo cardoso";
@@ -49,7 +48,6 @@ public class FuncoesString {
 		System.out.println("Procurar pela 1ª ocorrencia:	 " + primeiraposicao);
 		System.out.println("Procurar pela última ocorrencia: " + ultimaposicao);
 
-		
 		sc.close();
 	}
 }
