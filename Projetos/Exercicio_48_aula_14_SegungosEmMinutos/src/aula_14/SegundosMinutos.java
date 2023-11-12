@@ -14,11 +14,11 @@ public class SegundosMinutos {
         System.out.print("Digite o tempo em segundos: ");
         int segundos = sc.nextInt();
 
-        int horas = segundos / 3600; // converte para horas
-        segundos = segundos % 3600; // obtém o restante dos segundos
+        int horas = segundos / 3600; 	// converte para horas
+        segundos = segundos % 3600; 	// obtém o restante dos segundos
 
-        int minutos = segundos / 60; // converte para minutos
-        segundos = segundos % 60; // obtém o restante dos segundos
+        int minutos = segundos / 60;	// converte para minutos
+        segundos = segundos % 60; 		// obtém o restante dos segundos
 
         System.out.printf("O tempo convertido é: %d horas, %d minutos e %d segundos.", horas, minutos, segundos);
     }
