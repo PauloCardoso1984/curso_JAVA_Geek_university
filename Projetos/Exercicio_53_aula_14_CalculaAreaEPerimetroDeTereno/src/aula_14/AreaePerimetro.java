@@ -11,7 +11,7 @@ public class AreaePerimetro {
 		System.out.println("Faça um programa para ler as dimensões de um terreno (comprimento e largura, bem como \n"
 				+ "o preço do metro de tela. Imprima o custo para cercar este mesmo terreno com tela.");
 		System.out.println();
-		System.out.println("Valor do metro linear da cerça é R$ 17,20");
+		System.out.println("Valor do metro linear da cerca é R$ 17,20");
 
 		double comprimento = 0;
 		double largura = 0;
