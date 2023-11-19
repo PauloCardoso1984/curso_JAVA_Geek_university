@@ -1,6 +1,5 @@
 package aula_19;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class MaiorMenorIguais {
