@@ -58,6 +58,6 @@ public class Media_Final {
 
 	// MÉTODO
     public static double calcularMediaPonderada(double nota1, double nota2, double nota3) {
-        return ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) /10; 
+        return ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10; 
     }
 }
