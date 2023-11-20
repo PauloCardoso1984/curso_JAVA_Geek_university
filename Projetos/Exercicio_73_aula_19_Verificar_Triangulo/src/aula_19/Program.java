@@ -18,11 +18,11 @@ public class Program {
         double ladoB;
         double ladoC;
         
-        System.out.println("Lado A: ");
+        System.out.print("Lado A: ");
         ladoA = sc.nextDouble();
-        System.out.println("Lado B: ");
+        System.out.print("Lado B: ");
         ladoB = sc.nextDouble();
-        System.out.println("Lado C: ");
+        System.out.print("Lado C: ");
         ladoC = sc.nextDouble();
         
         if (ladoA == ladoB && ladoA == ladoC && ladoB == ladoC && ladoC == ladoA) {        	
