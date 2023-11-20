@@ -39,7 +39,7 @@
 		<item key="renameSubpackages" value="false"/>
 	</section>
 	<section name="BreadcrumbItemDropDown">
-		<item key="height" value="963"/>
+		<item key="height" value="961"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item key="ShowStatusLine" value="true"/>

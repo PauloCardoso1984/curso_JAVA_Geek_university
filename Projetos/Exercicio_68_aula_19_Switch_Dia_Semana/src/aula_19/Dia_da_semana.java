@@ -50,7 +50,6 @@ public class Dia_da_semana {
 			System.out.print("Digite um número (ente 1 a 7) e veja qual é o dia da semana: ");
 			numero = sc.nextInt();
 		}
-		
 		System.out.println("Dia da semana é : " + dia);		
 		
 		sc.close();
