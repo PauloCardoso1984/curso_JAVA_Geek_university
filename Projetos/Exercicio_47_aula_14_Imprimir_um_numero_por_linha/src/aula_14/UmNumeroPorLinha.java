@@ -23,7 +23,7 @@ public class UmNumeroPorLinha {
 		System.out.println("Numeros inversos de valor digitado até 0:");
 		for (int i = n; i >= 0; i--)
 			System.out.println(i);
-	
+		System.out.println();
 		sc.close();
     }
 }
