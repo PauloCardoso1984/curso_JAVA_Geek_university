@@ -23,7 +23,7 @@ public class Programa {
 		System.out.print("Informe a hora de entrada (HH:mm): ");
 		String entradaStr = sc.nextLine();
 
-		System.out.print("Informe a data e hora de saída (dd/MM/yyyy HH:mm): ");
+		System.out.print("Informe a hora de saída (HH:mm): ");
 		String saidaStr = sc.nextLine();
 
 		double tarifa = 0;
