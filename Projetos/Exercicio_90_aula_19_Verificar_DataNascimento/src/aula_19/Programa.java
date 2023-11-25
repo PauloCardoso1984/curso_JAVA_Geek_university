@@ -18,7 +18,7 @@ public class Programa {
 				+ "(29 se o ano for bissexto), dia <=30 em abril, junho, setembro e novembro, dia <= 31 \n"
 				+ "nos outros meses. Teste a validade do mês: mês > 0 e mês < 13. Teste a validade do \n"
 				+ "ano: <= ano atual (use uma constante definida com o valor igual a 2023). \n"
-				+ "Imprimir: 'data válida' ou 'data inválida' no final da execução do programa.");
+				+ "Imprimir: 'Data válida' ou 'Data inválida' no final da execução do programa.");
 		System.out.println();
 		System.out.print("Digite a data de nascimento ('dd/MM/yyyy'): ");
 		String data = sc.nextLine();
