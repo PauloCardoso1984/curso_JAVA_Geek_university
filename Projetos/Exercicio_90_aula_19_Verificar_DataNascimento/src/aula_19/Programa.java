@@ -25,9 +25,15 @@ public class Programa {
 
 		String dataDia = data.substring(0, 2);
 		int dia = Integer.parseInt(dataDia);
+		if (dia < 0 && dia > 31) {
+			System.out.println("Dia incorreto");
+		}
 
 		String dataMes = data.substring(3, 5);
 		int mes = Integer.parseInt(dataMes);
+		if (mes < 1 && mes > 12) {
+			System.out.println("Mês incorreto");
+		}
 
 		String dataAno = data.substring(6, 10);
 		int ano = Integer.parseInt(dataAno);
