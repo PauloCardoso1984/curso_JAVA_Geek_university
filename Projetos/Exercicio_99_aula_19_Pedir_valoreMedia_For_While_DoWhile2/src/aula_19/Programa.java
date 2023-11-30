@@ -10,8 +10,8 @@ public class Programa {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Faça um programa que peça ao úsuário para digitar valores e em \n"
-				+ "seguida mostre a soma dos mesmos.");
+		System.out.println("Faça um programa que peça ao úsuário para digitar notas e em \n"
+				+ "seguida mostre a soma dos mesmos, FOR, WJILE e DO WHILE.");
 		System.out.println();
 
         double mediafor = 0, somawhile = 0, somadowhile = 0;
@@ -42,8 +42,6 @@ public class Programa {
             i++;    
             media1 = somawhile / y;
         }
-       
-        
         System.out.println("A média das notas é: " + media1);
         
         System.out.println();
