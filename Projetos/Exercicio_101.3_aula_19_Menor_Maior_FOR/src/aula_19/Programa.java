@@ -30,7 +30,6 @@ public class Programa {
 					maior = numero;
 				}
 			}
-
 		}
 		System.out.println();
 		System.out.println("O maior número é: " + maior);
