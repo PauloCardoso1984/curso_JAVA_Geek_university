@@ -10,22 +10,33 @@ public class Programa {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Faça um programa que leia um número inteiro positivo N e calcule a soma \n"
-				+ "dos n primeiros números naturais.");
+		System.out.println("Esvreva um algoritmo que leia certa quantidade de números e imprima o maior deles e quantas vezes o \n"
+				+ "maior número foi lido. A quantidade de números a serem lidos deve ser fornecida pelo usuário.");
 		System.out.println();
 
-		int soma = 0;
-		
-		System.out.print("Entre com um número: ");
-		int N = sc.nextInt();
+		System.out.print("Digite a quantidade de números a serem lidos: ");
+		int quantidadeNumeros = sc.nextInt();
 
-		for (int i = 0; i <= N; i ++) {
-			soma += i;
-				System.out.print(i + " - ");
-			}		 
+		//Em resumo, a constante Integer.MIN_VALUE serve como uma referência para o valor mínimo possível de um objeto 
+		// inteiro em Java, sendo útil em diversas situações em que precisamos trabalhar com valores inteiros.
+		int numero, maiorNumero = Integer.MIN_VALUE;
+		int contador = 0;
+
+		for (int i = 1; i <= quantidadeNumeros; i++) {
+			System.out.print("Digite o número: " + i + "º número: ");
+			numero = sc.nextInt();
+
+			if (numero > maiorNumero) {
+				maiorNumero = numero;
+				contador = 1;
+			} else if (numero == maiorNumero) {
+				contador++;
+			}
+		}
 		System.out.println();
-		System.out.println();
-		System.out.println("A soma dos números naturais são de 0 a " + N + " é: " + soma);
+		System.out.println("Maior número: " + maiorNumero);
+		System.out.println("Quantidade de vezes que o maior número foi lido: " + contador);
+
 		sc.close();
 	}
 }
