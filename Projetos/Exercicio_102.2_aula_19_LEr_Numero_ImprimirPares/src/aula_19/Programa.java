@@ -11,7 +11,7 @@ public class Programa {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Faça um programa que leia um número inteiro N e imprima os N \n"
-				+ "primeiros números naturais pares.");
+				+ "primeiros números naturais impares.");
 		
 		System.out.println();
 		
@@ -21,7 +21,7 @@ public class Programa {
 		System.out.println();
         System.out.println("Os primeiros números naturais pares antes de " + n + " são:");
         
-        for (int i = 0; i <= n; i += 2) {
+        for (int i = 1; i < n; i += 2) {
             System.out.println(i);
         }
     }
