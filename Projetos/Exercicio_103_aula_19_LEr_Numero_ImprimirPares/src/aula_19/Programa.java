@@ -9,6 +9,9 @@ public class Programa {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Faça um programa que calcule a soma dos 50 primeiros números pares.");
+		System.out.println();
 
         int soma = 0;
 
@@ -16,7 +19,7 @@ public class Programa {
             soma += i;
             System.out.println(i);
         }
-
+        System.out.println();
         System.out.println("A soma dos 50 primeiros números pares é: " + soma);
     }
 }
