@@ -9,14 +9,6 @@ public class Programa {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
-		System.out.println("Escreva um programa completo que permita a qualquer aluno introduzir, pelo teclado, \n"
-				+ "uma sequência arbitrária de notas (Válidas no intervalo de 0 a 10) e que mostre na tela, como \n"
-				+ "resultado, a correspondete média aritmética. O número de notas com o aluno pretenda afeturar \n"
-				+ "o calculo não será fornecido ao programa, o qual encerrará quando for introduzido um valor que \n"
-				+ "não seja válido como nota.");
-		
-		System.out.println();		
 		
 		System.out.println("Faça um programa que leia apenas número positivo e imprima seus divisores.");
 		System.out.println();
