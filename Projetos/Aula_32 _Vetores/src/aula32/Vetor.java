@@ -41,7 +41,13 @@ public class Vetor {
 
 		for (String i : frutas) { // imprimirá os elementos
 			System.out.println(i);
-		}
+		}		
+		System.out.println();
+		
+        for (int i = 0; i < frutas.length; i++) { // imprimirá os elementos
+            System.out.print(frutas[i] + " - ");
+        }
+		System.out.println();
 		System.out.println();
 
 // VETRORES PARTE 2
