@@ -27,7 +27,7 @@ public class Funcao {
 		return v1 + v2;
 	}	
 	static int soma_2(int v1, int v2, String msg) {
-		System.out.println("Dentro doe método soma_2: " + msg);
+		System.out.println("Dentro do método soma_2: " + msg);
 		return v1 + v2;
 	}
 
