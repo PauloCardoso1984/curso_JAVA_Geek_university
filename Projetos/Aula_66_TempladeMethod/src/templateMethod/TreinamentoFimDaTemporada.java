@@ -1,4 +1,4 @@
-package templeteMethod;
+package templateMethod;
 
 public class TreinamentoFimDaTemporada extends Treinamento {
 

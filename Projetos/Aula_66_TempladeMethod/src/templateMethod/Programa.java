@@ -1,4 +1,4 @@
-package templeteMethod;
+package templateMethod;
 /*
  * Template Method -> é o pradrão que define o esqueleto de um algoritmo dentro de um método,
  * transferindo alguns de seus passos para as subclasses. O template Method permite

@@ -1,4 +1,4 @@
-package templeteMethod;
+package templateMethod;
 
 // CLASSE ABSTRATA
 // Template Method
