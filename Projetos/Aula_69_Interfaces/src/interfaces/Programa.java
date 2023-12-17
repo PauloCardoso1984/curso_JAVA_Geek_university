@@ -16,6 +16,5 @@ public class Programa {
 		vent.desligar(); // Não deve imprimir a mensagem		
 		vent.ligar(); // Deve imprimir a mensagem		
 		vent.desligar(); // Deve imprimir a mensagem
-		
 	}
 }
