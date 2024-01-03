@@ -58,8 +58,7 @@ public class Programa {
 		if (c1 instanceof Conta) {
 			System.out.println("O objeto é do tipo Conta.");
 		}
-		
-		
+				
 		System.out.println();
 		
 		prateleira.adicionar(c1);
@@ -74,9 +73,6 @@ public class Programa {
 		Conta conta2 = ((Conta)prateleira.pegar(1));  // CASTING
 		System.out.println(conta2);
 		System.out.println(prateleira.pegar(1)); // OUTRA FORMA DE PEGAR AS INFORMAÇÕES
-		
-		
-		
-	
+			
 	}
 }
