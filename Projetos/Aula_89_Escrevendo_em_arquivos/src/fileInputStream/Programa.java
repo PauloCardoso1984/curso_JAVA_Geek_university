@@ -32,12 +32,10 @@ public class Programa {
 		} catch (FileNotFoundException e) {
 			System.out.println("Arquivo não encontrado...");
 		} 
-		
-		
+			
 		finally {
 			System.out.println();
 			System.out.println("Processo finalizado com sucesso...");
 		}
-
 	}
 }

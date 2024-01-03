@@ -13,7 +13,8 @@ public class Programa {
 		Scanner teclado = new Scanner(System.in);
 
 		try {
-			// Criar um arquivo e escrever dentro dele
+			/* Criar um arquivo e escrever dentro dele / Toda vez que o programa for executado o arquivo será recriado 
+			e as informações anteriores serão perdidas */
 			PrintStream escrever = new PrintStream("saída.txt");
 
 			// SE PRECISAR DE ESCREVER MAIS DE UMA LINHA TEM QUE FAZER UM FOR
