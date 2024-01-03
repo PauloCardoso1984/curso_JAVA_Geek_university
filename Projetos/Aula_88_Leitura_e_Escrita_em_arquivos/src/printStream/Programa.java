@@ -1,4 +1,4 @@
-package string;
+package printStream;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
