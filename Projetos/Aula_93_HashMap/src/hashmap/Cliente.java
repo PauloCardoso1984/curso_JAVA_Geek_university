@@ -1,4 +1,4 @@
-package object;
+package hashmap;
 
 import java.util.Objects;
 
