@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="aula_19.Trapezio"/>
     <fullyQualifiedTypeName name="aula_19.CalcularTrapezio"/>
     <fullyQualifiedTypeName name="aula_19.OperacoesMatematica"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
