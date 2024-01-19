@@ -8,4 +8,10 @@
     <fullyQualifiedTypeName name="aula_19.OperacoesMatematica"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="threads.FazDeposito"/>
+    <fullyQualifiedTypeName name="threadsSynchronized.Cliente"/>
+    <fullyQualifiedTypeName name="threadsSynchronized.FazDeposito"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.security.PrivilegedActionException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
